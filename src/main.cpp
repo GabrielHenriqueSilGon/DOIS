@@ -4,7 +4,7 @@
 #include "DOISa.hpp"
 #include "DOISb.hpp"
 #include "DOISc.hpp"
-//#include "DOISd.hpp"
+#include "DOISd.hpp"
 using namespace std;
 
 int
@@ -16,7 +16,7 @@ main ()
   DOISa da;
   DOISb db;
   DOISc dc;
-  //DOISd dd;
+  DOISd dd;
 
 
   while (c != 's')
@@ -47,7 +47,7 @@ main ()
 	    break;
 	  }
 
-	  /*case 'd':
+	  case 'd':
 	     {
 	     int n;
 
@@ -56,7 +56,7 @@ main ()
 	     dd.guarda(n);
 	     break;
 	     }
-	   */
+	   
 	}
     }
   return 0;
